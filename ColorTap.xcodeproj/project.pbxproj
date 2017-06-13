@@ -12,7 +12,8 @@
 		15B689E61EF053CE00310287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B689E41EF053CE00310287 /* Main.storyboard */; };
 		15B689E81EF053CE00310287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B689E71EF053CE00310287 /* Assets.xcassets */; };
 		15B689EB1EF053CE00310287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B689E91EF053CE00310287 /* LaunchScreen.storyboard */; };
-		15B689F61EF053CF00310287 /* HelloNBCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B689F51EF053CF00310287 /* HelloNBCTests.swift */; };
+		15B689F61EF053CF00310287 /* ColorTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B689F51EF053CF00310287 /* ColorTapTests.swift */; };
+		15B68A011EF0556300310287 /* ColorSwapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B68A001EF0556300310287 /* ColorSwapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15B689DD1EF053CE00310287 /* HelloNBC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloNBC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B689DD1EF053CE00310287 /* ColorTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B689E01EF053CE00310287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15B689E21EF053CE00310287 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15B689E51EF053CE00310287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15B689E71EF053CE00310287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15B689EA1EF053CE00310287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15B689EC1EF053CE00310287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15B689F11EF053CF00310287 /* HelloNBCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloNBCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15B689F51EF053CF00310287 /* HelloNBCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloNBCTests.swift; sourceTree = "<group>"; };
+		15B689F11EF053CF00310287 /* ColorTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorTapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B689F51EF053CF00310287 /* ColorTapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTapTests.swift; sourceTree = "<group>"; };
 		15B689F71EF053CF00310287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B68A001EF0556300310287 /* ColorSwapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSwapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,8 @@
 		15B689D41EF053CE00310287 = {
 			isa = PBXGroup;
 			children = (
-				15B689DF1EF053CE00310287 /* HelloNBC */,
-				15B689F41EF053CF00310287 /* HelloNBCTests */,
+				15B689DF1EF053CE00310287 /* ColorTap */,
+				15B689F41EF053CF00310287 /* ColorTapTests */,
 				15B689DE1EF053CE00310287 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,40 +70,41 @@
 		15B689DE1EF053CE00310287 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15B689DD1EF053CE00310287 /* HelloNBC.app */,
-				15B689F11EF053CF00310287 /* HelloNBCTests.xctest */,
+				15B689DD1EF053CE00310287 /* ColorTap.app */,
+				15B689F11EF053CF00310287 /* ColorTapTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		15B689DF1EF053CE00310287 /* HelloNBC */ = {
+		15B689DF1EF053CE00310287 /* ColorTap */ = {
 			isa = PBXGroup;
 			children = (
 				15B689E01EF053CE00310287 /* AppDelegate.swift */,
 				15B689E21EF053CE00310287 /* ViewController.swift */,
+				15B68A001EF0556300310287 /* ColorSwapView.swift */,
 				15B689E41EF053CE00310287 /* Main.storyboard */,
 				15B689E71EF053CE00310287 /* Assets.xcassets */,
 				15B689E91EF053CE00310287 /* LaunchScreen.storyboard */,
 				15B689EC1EF053CE00310287 /* Info.plist */,
 			);
-			path = HelloNBC;
+			path = ColorTap;
 			sourceTree = "<group>";
 		};
-		15B689F41EF053CF00310287 /* HelloNBCTests */ = {
+		15B689F41EF053CF00310287 /* ColorTapTests */ = {
 			isa = PBXGroup;
 			children = (
-				15B689F51EF053CF00310287 /* HelloNBCTests.swift */,
+				15B689F51EF053CF00310287 /* ColorTapTests.swift */,
 				15B689F71EF053CF00310287 /* Info.plist */,
 			);
-			path = HelloNBCTests;
+			path = ColorTapTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15B689DC1EF053CE00310287 /* HelloNBC */ = {
+		15B689DC1EF053CE00310287 /* ColorTap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15B689FA1EF053CF00310287 /* Build configuration list for PBXNativeTarget "HelloNBC" */;
+			buildConfigurationList = 15B689FA1EF053CF00310287 /* Build configuration list for PBXNativeTarget "ColorTap" */;
 			buildPhases = (
 				15B689D91EF053CE00310287 /* Sources */,
 				15B689DA1EF053CE00310287 /* Frameworks */,
@@ -111,14 +114,14 @@
 			);
 			dependencies = (
 			);
-			name = HelloNBC;
+			name = ColorTap;
 			productName = HelloNBC;
-			productReference = 15B689DD1EF053CE00310287 /* HelloNBC.app */;
+			productReference = 15B689DD1EF053CE00310287 /* ColorTap.app */;
 			productType = "com.apple.product-type.application";
 		};
-		15B689F01EF053CF00310287 /* HelloNBCTests */ = {
+		15B689F01EF053CF00310287 /* ColorTapTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15B689FD1EF053CF00310287 /* Build configuration list for PBXNativeTarget "HelloNBCTests" */;
+			buildConfigurationList = 15B689FD1EF053CF00310287 /* Build configuration list for PBXNativeTarget "ColorTapTests" */;
 			buildPhases = (
 				15B689ED1EF053CF00310287 /* Sources */,
 				15B689EE1EF053CF00310287 /* Frameworks */,
@@ -129,9 +132,9 @@
 			dependencies = (
 				15B689F31EF053CF00310287 /* PBXTargetDependency */,
 			);
-			name = HelloNBCTests;
+			name = ColorTapTests;
 			productName = HelloNBCTests;
-			productReference = 15B689F11EF053CF00310287 /* HelloNBCTests.xctest */;
+			productReference = 15B689F11EF053CF00310287 /* ColorTapTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 15B689D81EF053CE00310287 /* Build configuration list for PBXProject "HelloNBC" */;
+			buildConfigurationList = 15B689D81EF053CE00310287 /* Build configuration list for PBXProject "ColorTap" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,8 +169,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15B689DC1EF053CE00310287 /* HelloNBC */,
-				15B689F01EF053CF00310287 /* HelloNBCTests */,
+				15B689DC1EF053CE00310287 /* ColorTap */,
+				15B689F01EF053CF00310287 /* ColorTapTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,6 +202,7 @@
 			files = (
 				15B689E31EF053CE00310287 /* ViewController.swift in Sources */,
 				15B689E11EF053CE00310287 /* AppDelegate.swift in Sources */,
+				15B68A011EF0556300310287 /* ColorSwapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15B689F61EF053CF00310287 /* HelloNBCTests.swift in Sources */,
+				15B689F61EF053CF00310287 /* ColorTapTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +219,7 @@
 /* Begin PBXTargetDependency section */
 		15B689F31EF053CF00310287 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 15B689DC1EF053CE00310287 /* HelloNBC */;
+			target = 15B689DC1EF053CE00310287 /* ColorTap */;
 			targetProxy = 15B689F21EF053CF00310287 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -348,9 +352,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8HN2GJXMB7;
-				INFOPLIST_FILE = HelloNBC/Info.plist;
+				INFOPLIST_FILE = ColorTap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wrichman.HelloNBC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrichman.ColorTap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -362,9 +366,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8HN2GJXMB7;
-				INFOPLIST_FILE = HelloNBC/Info.plist;
+				INFOPLIST_FILE = ColorTap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wrichman.HelloNBC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrichman.ColorTap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -377,13 +381,13 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8HN2GJXMB7;
-				INFOPLIST_FILE = HelloNBCTests/Info.plist;
+				INFOPLIST_FILE = ColorTapTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wrichman.HelloNBCTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrichman.ColorTapTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloNBC.app/HelloNBC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorTap.app/ColorTap";
 			};
 			name = Debug;
 		};
@@ -393,20 +397,20 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8HN2GJXMB7;
-				INFOPLIST_FILE = HelloNBCTests/Info.plist;
+				INFOPLIST_FILE = ColorTapTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wrichman.HelloNBCTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wrichman.ColorTapTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloNBC.app/HelloNBC";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorTap.app/ColorTap";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15B689D81EF053CE00310287 /* Build configuration list for PBXProject "HelloNBC" */ = {
+		15B689D81EF053CE00310287 /* Build configuration list for PBXProject "ColorTap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15B689F81EF053CF00310287 /* Debug */,
@@ -415,21 +419,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15B689FA1EF053CF00310287 /* Build configuration list for PBXNativeTarget "HelloNBC" */ = {
+		15B689FA1EF053CF00310287 /* Build configuration list for PBXNativeTarget "ColorTap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15B689FB1EF053CF00310287 /* Debug */,
 				15B689FC1EF053CF00310287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		15B689FD1EF053CF00310287 /* Build configuration list for PBXNativeTarget "HelloNBCTests" */ = {
+		15B689FD1EF053CF00310287 /* Build configuration list for PBXNativeTarget "ColorTapTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15B689FE1EF053CF00310287 /* Debug */,
 				15B689FF1EF053CF00310287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

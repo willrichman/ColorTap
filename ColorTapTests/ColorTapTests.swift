@@ -1,15 +1,15 @@
 //
-//  HelloNBCTests.swift
-//  HelloNBCTests
+//  ColorTapTests.swift
+//  ColorTapTests
 //
 //  Created by William Richman on 6/13/17.
 //  Copyright © 2017 wrichman. All rights reserved.
 //
 
 import XCTest
-@testable import HelloNBC
+@testable import ColorTap
 
-class HelloNBCTests: XCTestCase {
+class ColorTapTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

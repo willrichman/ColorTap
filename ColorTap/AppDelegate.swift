@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  HelloNBC
+//  ColorTap
 //
 //  Created by William Richman on 6/13/17.
 //  Copyright © 2017 wrichman. All rights reserved.
